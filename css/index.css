@@ -2,6 +2,11 @@
 p{
     font-family: 'Roboto', sans-serif;
 }
+h2{
+    margin: 0.67em 0;
+    font-family: "Open Sans", sans-serif;
+    padding-left:4%;
+}
 body .content {
     width:100%;
 }
