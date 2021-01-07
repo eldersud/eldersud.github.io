@@ -76,6 +76,8 @@ footer{
     padding-left:10%;
     margin-right:5%;
     margin-left:10%;
+    position:sticky;
+  left:10px;
 
 }
 @media screen and (max-width: 550px) { 
