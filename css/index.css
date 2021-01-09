@@ -30,13 +30,10 @@ body{
   padding-right:15%;
   padding-top:10px;
   box-align:center;
+  background-color: #E5E5E5;
 }
 
 main{
-    box-shadow: 1px 1px 3px 1px #888;
-    border-radius: 3px;
-    overflow: hidden;
-    border: 1px solid #888;
     background-color: #E5E5E5;
     
    
