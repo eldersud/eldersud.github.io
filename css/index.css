@@ -67,7 +67,7 @@ footer{
 }
 .principles-main{
   display: grid;
-    grid-template-column: repeat(3,1fr); 
+    grid-template-columns: repeat(3,1fr); 
     align-items: center;
     grid-gap:1em;
 }
