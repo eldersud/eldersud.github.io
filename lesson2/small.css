@@ -111,10 +111,12 @@ main {
   .scenarios li{
     font-family: 'Roboto', sans-serif;
   }
-  img{
+   img{
     width:500px;
     }
-
+    main img{
+      width:100%;
+      }
   
   
     
