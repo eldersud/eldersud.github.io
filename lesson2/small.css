@@ -123,7 +123,11 @@ main {
     main img{
       width:100%;
       }
-  
+  .target-main img{
+    width:300px;
+    padding-left:20%;
+    border-radius: 3px;
+  }
   
     
   
