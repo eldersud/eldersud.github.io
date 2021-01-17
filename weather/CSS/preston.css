@@ -37,6 +37,7 @@
        font-size:1em;
        margin-right:10%;
        padding-left:30%;
+       font-family: "Open Sans", sans-serif;
      }
     
 h1 {
@@ -63,6 +64,7 @@ main h3{
   font-size: 1em;
   margin-left: 5%;;
   padding-left:4%;
+  
 }
 p{
   font-family: 'Roboto', sans-serif;
