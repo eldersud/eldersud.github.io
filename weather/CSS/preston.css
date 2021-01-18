@@ -34,8 +34,12 @@
      header img{
        width:100px;
        height: auto;
-       
+       transition:0.5s;
      } 
+  
+    img:hover{
+      transform:scale(1.2);
+    }
      .motto {
       font-family: "Open Sans", sans-serif;
       margin-left: 20px;
