@@ -47,12 +47,7 @@
       letter-spacing: 1pt;
       color:#FCA311;
   }
-     header h3{ 
-       font-size:1em;
-       margin-right:10%;
-       padding-left:30%;
-       font-family: "Open Sans", sans-serif;
-     }
+    
     
 h1 {
   font-size: 3em;
@@ -68,18 +63,8 @@ h2{
   padding-right:30%;
   
 }
-h3{
-  font-family: 'Roboto', sans-serif;
-  padding-left:4%;
-  font-size: 1em;
 
-}
-main h3{
-  font-size: 1em;
-  margin-left: 5%;;
-  padding-left:4%;
-  
-}
+
 p{
   font-family: 'Roboto', sans-serif;
 }
@@ -144,20 +129,8 @@ main {
   box-sizing: border-box;
   
 }
-  .scenarios li{
-    font-family: 'Roboto', sans-serif;
-  }
-   img{
-    width:500px;
-    }
-    main img{
-      width:100%;
-      }
-  .target-main img{
-    width:100%;
-    border-radius: 3px;
-    max-width: 300px;
-  }
+  
+  
   .placeholder{
     font-family: 'Roboto', sans-serif;
   }
