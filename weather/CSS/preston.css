@@ -13,6 +13,9 @@
     background-color:#14213D;
     color:white;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   } 
   footer{
       box-shadow: 1px 1px 3px 1px #888;
@@ -30,9 +33,16 @@
      }
      header img{
        width:100px;
-       float:left;
+       height: auto;
        
      } 
+     .motto {
+      font-family: "Open Sans", sans-serif;
+      margin-left: 20px;
+    font-size: 0.8rem;
+      letter-spacing: 1pt;
+      color:#FCA311;
+  }
      header h3{ 
        font-size:1em;
        margin-right:10%;
@@ -73,43 +83,48 @@ p{
 nav{
   background-color: #E5E5E5;
   text-align: center;
-  display: block;
   line-height:50px;
-  
-  
+  margin: 0 auto;
 }
-
-nav ul{
-  
-  list-style-type: none;
+nav ul {
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-} 
-nav ul li a {
+}
+.ul-nav{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.ul-nav li:first-child {
+  display: block;
+}
+.ul-nav li {
+display: none;
+}
+.ul-nav a {
   color:#FCA311;
 display: block;
 text-align: center;
 padding: 0.75rem;
 text-decoration: none;
-font-size:120%;
+  font-size: 1rem;
   font-family: "Open Sans", sans-serif;
 }
-nav a:hover {
-             
-  color:white;
-  background-color:#FCA311;
-}
-  a{
+ a{
     color:#FCA311;
     text-decoration:none;
     font-family: "Open Sans", sans-serif;
   }
   
-  a:hover{
-
+  .ul-nav a:hover{
+background-color: #FCA311;;
     color:white;
   }
+  .responsive li {
+    display: block;
+}
   .color-link:hover{
     color:#14213D;
   }
