@@ -43,7 +43,7 @@
      .motto {
       font-family: "Open Sans", sans-serif;
       margin-left: 20px;
-    font-size: 0.8rem;
+      font-size: 0.8rem;
       letter-spacing: 1pt;
       color:#FCA311;
   }
@@ -87,7 +87,7 @@ p{
 nav{
   background-color: #E5E5E5;
   text-align: center;
-  line-height:50px;
+ 
   margin: 0 auto;
 }
 nav ul {
