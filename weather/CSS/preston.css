@@ -37,7 +37,7 @@
        transition:0.5s;
      } 
   
-    img:hover{
+    header img:hover{
       transform:scale(1.2);
     }
      .motto {
@@ -101,6 +101,14 @@ text-decoration: none;
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
 }
+.active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.active a{
+  color:#14213D;
+  
+}
+  
  a{
     color:#FCA311;
     text-decoration:none;
@@ -108,7 +116,7 @@ text-decoration: none;
   }
   
   .ul-nav a:hover{
-background-color: #FCA311;;
+background-color: #FCA311;
     color:white;
   }
   .responsive li {
@@ -118,22 +126,101 @@ background-color: #FCA311;;
     color:#14213D;
   }
  
- .active {
-	color:#14213D
-}
+ 
 main {
   
-  max-width: 700px;
+  max-width: 800px;
   font-size: 18px;
   padding: 1rem;
   box-sizing: border-box;
   
 }
-  
-  
-  .placeholder{
-    font-family: 'Roboto', sans-serif;
-  }
-  
+  .banner{
+    max-width:800px;
+    margin: 10px auto;
     
+  }
+  .banner-count{
+    max-width: 800px;
+    height:300px;
+    overflow:hidden;
+    
+  }
+ .banner img{
+   width:100%;
+   transition:3s;
+   overflow:hidden;
+ } 
+ .banner img:hover{
+  transform:scale(1.2);
+  overflow:hidden;
+}
+.banner p{
+  font-family: "Open Sans", sans-serif;
+}
+.wheather-summary{
+  box-shadow: 1px 1px 3px 1px #888;
+      border-radius: 3px;
+      border: 1px solid #888;
+      background-color: #E5E5E5;
+      color:#14213D;
+      margin:0 auto;
+     padding-left:10px;
+     margin: 10px auto;
+}
+.forecast-block {
+  display: flex;
+  flex-flow: row wrap;
+ 
+}
+.forecast h4 {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  font-size: 1rem;
+  color:#14213D;
+  
+}
+.forecast-sec {
+  flex: 1 1 auto;
+  background-color: #E5E5E5;
+ text-align: center;
+}
+.forecast-sec:hover {
+  background-color: rgba(240, 240, 240, 0.2);
+  color: #FCA311;
+}
+.forecast-sec img{
+  width:100px;
+}
+.article{
+  max-width:800px;
+  margin: 10px auto;
+  background-color: #E5E5E5;
+  
+  padding:5%;
+}
+.article img {
+  width: 100%;
+}
+.article h2{
+  margin: 0 auto;
+  padding:5px;
+}
+.contact-content {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.map {
+  flex: 1;
+  display: block;
+  margin: auto;
+}
+
+.contact-info {
+  flex: 1;
+  margin:5%;
+  padding:5%;
+}
   
