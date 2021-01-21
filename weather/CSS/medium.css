@@ -47,7 +47,7 @@
             padding-left:10px;
            
       }
-      .contact-content {
+      .contact-flex {
         display: flex;
       }
     
@@ -61,6 +61,10 @@
         flex: 1;
         margin:5%;
         padding:5%;
+      }
+      .social-media{
+        flex: 1;
+      
       }
     
       
