@@ -27,6 +27,20 @@
         flex: 1 1 100%;
     }
     .banner-count{
+        max-width: 800px;
+        overflow:hidden;
+        
+      }
+     .banner img{
+       width:100%;
+       transition:3s;
+       overflow:hidden;
+     } 
+     .banner img:hover{
+        transform:scale(1.2);
+        overflow:hidden;
+      }
+    .banner-count{
         position: relative;
         margin: 10px auto;
         width: 100%;

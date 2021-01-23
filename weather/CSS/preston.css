@@ -147,13 +147,9 @@ main {
   }
  .banner img{
    width:100%;
-   transition:3s;
    overflow:hidden;
  } 
- .banner img:hover{
-  transform:scale(1.2);
-  overflow:hidden;
-}
+ 
 .banner p{
   font-family: "Open Sans", sans-serif;
 }
@@ -223,10 +219,5 @@ main {
   margin:5%;
   padding:5%;
 }
-.social-media{
-  
-  display: grid;
-    grid-template-columns: repeat(3,45px);
-  grid-gap:5px;
-}
+
   
