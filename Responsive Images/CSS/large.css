@@ -1,0 +1,44 @@
+@media only screen and (min-width: 900px) {
+    header img {
+      width: 128px;
+      height: auto;
+    }
+  
+    h1 {
+      font-size: 3rem;
+      }
+      h2{
+        font-size: 3rem;
+      }
+  
+    .motto {
+      font-size: 1.3rem;
+    }
+  
+    nav a {
+          font-size: 1.1rem;
+    }
+    
+     
+    .banner-count{
+      position: relative;
+      
+         
+    } 
+     .wheather-summ{
+      
+      position: absolute;
+      margin-top:20%;
+
+    }
+    .article img {
+      max-width:350px;
+      
+      float: right;
+      padding-right: 10px;
+    }
+    .article p {
+      font-size: 1.25em;
+    }
+  
+  }

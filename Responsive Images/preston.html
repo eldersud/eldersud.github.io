@@ -5,14 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description"
-    content="The Preston Town Page assignment for Elder Cuases in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-  <title>Elder Cuases |WDD230 S#16|Preston Town Page</title>
+    content="The Responsive Images assignment for Elder Cuases in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <title>Elder Cuases |WDD230 S#16|Responsive Images</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../weather/CSS/preston.css">
   <link rel="stylesheet" href="../weather/CSS/large.css">
   <link rel="stylesheet" href="../weather/CSS/medium.css">
-
   <link rel="stylesheet" href="../normalize.css">
 </head>
 
@@ -40,14 +39,20 @@
     <h2>Preston Idaho</h2>
     <section class="banner">
       <div class="banner-count">
-        <img src="../weather/images/b5b462026fb2349132a9bcdc0337f5ac.jpg" alt="banner">
+        <picture>
+          <img src="../Responsive Images/images/450px-img1.jpg" alt="banner">
+          <source  srcset="1000px-img3" media="(min-width:450px) and (max-width:768px)">
+            <source  srcset="1000px-img3" media="(max-width:770px)">
+          
+        
+      </picture>
         <div class="wheather-summary">
           <h3>Wheather Summary</h3>
-          <p>Currently: Sunny</p>
-          <p>Hight: 76˚F</p>
-          <p>Wind Chill:˚F </p>
-          <p>Humidity: 69%</p>
-          <p>Wind Speed: 5mph</p>
+          <p><strong>Currently:</strong><span id="current">Sunny</span></p>
+                <p><strong>Temperature:</strong><span id="temp">41</span>&deg;F</p>
+                <p><strong>Wind Chill:</strong><span id="wind-chill"></span></p>
+                <p><strong>Humidity:</strong><span id="humidity">50</span>%</p>
+                <p><strong>Wind Speed:</strong><span id="wind-speed">5</span> mph</p>
         </div>
       </div>
 
@@ -121,7 +126,7 @@
       </div>
       <div id="social-media">
         <a target="_blank" href="https://www.facebook.com/"><img alt="face book icon"
-            src="../weather/images/a6732bab-ec44-44c3-b32c-95f08daa63c6_facebook1.png"></a>
+            src="../Responsive Images/images/a6732bab-ec44-44c3-b32c-95f08daa63c6_facebook1.png"></a>
         <a target="_blank" href="https://www.youtube.com/channel/UCEof1y79UCMfKEyDLnqikJQ/videos"><img
             alt="youtube icon" src="../weather/images/a6732bab-ec44-44c3-b32c-95f08daa63c6_youtube.png"></a>
         <a target="_blank" href="https://www.instagram.com/?hl=es-la"><img alt="instagram icon"
@@ -138,6 +143,7 @@
     <div id="lastup"></div>
   </footer>
   <script src="../weather/js/preston.js"></script>
+  <script src="js/windchill.js"></script>
 
 </body>
 
