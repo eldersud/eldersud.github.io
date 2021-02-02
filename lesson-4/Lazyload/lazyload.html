@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+        content="Lazy Load Assignment for Elder Cuases in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Elder Cuases |WDD230 S#16|Lazy Load</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Lazyload/CSS/lazy.css">
+    <link rel="stylesheet" href="../normalize.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Progressive Loading of Images</h1>
+    </header>
+    <main>
+        <picture>
+            <img src='images/placeholder1.png' data-src="images/cat.jpg" alt='cat'>
+        </picture>
+        <picture>
+            <img src='images/placeholder2.png' data-src="images/island.jpg" alt='island'>
+        </picture>
+        <picture>
+            <img src='images/placeholder1.png' data-src="images/dragon.jpg" alt='dragon'>
+        </picture>
+        <picture>
+            <img src='images/placeholder1.png' data-src="images/plants.jpg" alt='plants'>
+        </picture>
+        <picture>
+            <img src='images/placeholder1.png' data-src="images/truck.jpg" alt='truck'>
+        </picture>
+
+    </main>
+    <footer>
+        <p class="fpage">
+            &copy; <span id="currentYear"></span> | <a target="_blank" href="../index.html">Elder Cuases</a> |
+            Quito-Ecuador |
+            <a target="_blank" href="https://www.byui.edu/"> BYUI Online Learning</a>
+        </p>
+        <div id="lastup"></div>
+    </footer>
+    <script src="../Lazyload/js/lazy.js"></script>
+</body>
+
+</html>
