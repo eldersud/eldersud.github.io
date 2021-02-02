@@ -223,11 +223,11 @@ form label.sbs {
 }
 
 form label.top input:required {
-  border-left: #FCA311 solid 4px;
+  border-left: #14213D solid 4px;
 }
 
 form label.top input:required:valid {
-  border-left: rgb(4, 202, 4) solid 4px;
+  border-left: #FCA311 solid 4px;
 }
 
 
