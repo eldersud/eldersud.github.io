@@ -186,7 +186,7 @@ form legend {
   font-size: 1.2rem;
   margin: 0 1rem;
   padding: 0 .5rem;
-  color: #007abd;
+  color: #FCA311;
 }
 
 form label.top,
@@ -214,7 +214,7 @@ form label input:focus,
 form label select:focus,
 form label textarea:focus {
   outline: none !important;
-  box-shadow: 0 0 5px rgba(20, 61, 243, 0.87);
+  box-shadow: 0 0 5px #FCA311;
 }
 
 form label.sbs {
