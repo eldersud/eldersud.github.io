@@ -40,13 +40,6 @@
     .article p {
       font-size: 1.25em;
     }
-    .contact-flex {
-      display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem;
-    margin: 0;
-      
-    }
+  
   
   }
