@@ -194,15 +194,15 @@ form legend {
   color: #FCA311;
 }
 
-form label.top,
+form label.lab-class,
 form div {
   display: block;
   padding-top: 1rem;
 }
 
-form label.top input,
-form label.top select,
-form label.top textarea {
+form label.lab-class input,
+form label.lab-class select,
+form label.lab-class textarea {
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
@@ -227,11 +227,11 @@ form label.sbs {
   padding: 0.3rem;
 }
 
-form label.top input:required {
+form label.lab-class input:required {
   border-left: #14213D solid 4px;
 }
 
-form label.top input:required:valid {
+form label.lab-class input:required:valid {
   border-left: #FCA311 solid 4px;
 }
 
@@ -286,7 +286,7 @@ input[type=range]::-webkit-slider-thumb {
 
 
 
-form label.top select.region {
+form label.lab-class select.region {
   width: 98%;
   max-width: 21.5rem;
 }
