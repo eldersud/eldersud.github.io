@@ -222,8 +222,7 @@ form label textarea:focus {
   box-shadow: 0 0 5px #FCA311;
 }
 
-form label.sbs {
-  display: block;
+form label.danger-lab {
   padding: 0.3rem;
 }
 
@@ -237,7 +236,7 @@ form label.lab-class input:required:valid {
 
 
 
-form label.severity span.severity-labels {
+form label.severity span.severity-labs {
   max-width: 21.5rem;
   display: flex;
   justify-content: space-between;
@@ -246,14 +245,14 @@ form label.severity span.severity-labels {
   margin-bottom: -10px;
 }
 
-form label.severity span.severity-labels span.label-box {
+form label.severity span.severity-labs span.label-box-severety {
   display: flex;
   width: 20px;
   justify-content: center;
   padding: 0;
 }
 
-form label.severity span.severity-labels span.label-box span {
+form label.severity span.severity-labs span.label-box-severety span {
   padding-top: 0;
   font-size: 0.8rem;
 }
@@ -286,16 +285,17 @@ input[type=range]::-webkit-slider-thumb {
 
 
 
-form label.lab-class select.region {
+form label.lab-class select.regions {
   width: 98%;
   max-width: 21.5rem;
+  
 }
 
 form div.divlabel {
   padding-top: 1rem;
 }
 
-form input.submitBtn {
+form input.button {
   border: none;
   background-color: #FCA311;
   color: white;
@@ -313,7 +313,7 @@ input[type="submit"]:hover {
   color: #FCA311;
 }
 
-form div.button-div {
+form div.button-cont {
   margin: 0 0 2rem 2%;
 }
 
