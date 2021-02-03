@@ -311,3 +311,9 @@ input[type="submit"]:hover {
 form div.button-div {
   margin: 0 0 2rem 2%;
 }
+
+.thanks{
+  color: #FCA311;
+  font-size: 3em;
+  
+}
