@@ -31,7 +31,11 @@
   }
 
 .gallery:hover {
-  box-shadow: 0 0 50px rgb(42, 42, 42);
+  box-shadow: 0 0 30px#14213D;
+    border-radius: 3px;
+    border: 1px solid #888;
+    color:#FCA311;
+    background-color: #E5E5E5;
 }
 
   }

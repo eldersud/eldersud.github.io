@@ -1,5 +1,9 @@
 @media only screen and (min-width: 72em) {
-    header img {
+  header, nav, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+  header img {
       width: 128px;
       height: auto;
     }
@@ -7,10 +11,9 @@
     h1 {
       font-size: 3rem;
       }
-      h2{
-        font-size: 3rem;
+      h4{
+        font-size: 1em;
       }
-  
     .motto {
       font-size: 1.3rem;
     }
@@ -19,26 +22,33 @@
           font-size: 1.1rem;
     }
     
+    div.pics{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  div.pics section{
+      display: inline;
+      grid-column: 1 / 2;
+      margin: 5px;
+      
+  }
+  div.pics section:nth-child(2){
+      display: inline;
+      grid-column: 2 / 3;
+  }
+  div.pics section:nth-child(3){
+      display: inline;
+      grid-column: 3 / 4;
+  } 
      
-    .banner-count{
-      position: relative;
-      
-         
-    } 
-     .wheather-summ{
-      
-      position: absolute;
-      margin-top:20%;
-
-    }
-    .article img {
-      max-width:350px;
-      
-      float: right;
-      padding-right: 10px;
-    }
-    .article p {
-      font-size: 1.25em;
-    }
+  .contact{
+    display: flex;
+    flex-flow:row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+    
+  }   
   
   }

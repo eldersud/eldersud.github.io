@@ -139,9 +139,12 @@ background-color: #FCA311;
 img[data-src] {
   filter: blur(0.2em);
 }
-img {
+main img {
   filter: blur(0em);
   transition: filter 0.5s;
+  box-shadow: 1px 1px 3px 1px #888;
+    border-radius: 3px;
+    border: 1px solid #888;
   
 }
 .gallery {

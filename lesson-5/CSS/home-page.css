@@ -63,6 +63,12 @@ h2{
   padding-right:30%;
   
 }
+h4{
+  
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color:#FCA311;
+}
 
 
 p{
@@ -135,89 +141,15 @@ main {
   box-sizing: border-box;
   
 }
-  .banner{
-    max-width:800px;
-    margin: 10px auto;
-    
-  }
-  .banner-count{
-    max-width: 800px;
-    overflow:hidden;
-    
-  }
- .banner img{
-   width:100%;
-   overflow:hidden;
- } 
+  
  
-.banner p{
-  font-family: "Open Sans", sans-serif;
-}
-.wheather-summary{
-  box-shadow: 1px 1px 3px 1px #888;
-      border-radius: 3px;
-      border: 1px solid #888;
-      background-color: #E5E5E5;
-      color:#14213D;
-      margin:0 auto;
-     padding-left:10px;
-     margin: 15px auto;
-}
-.forecast-block {
+
+.contact{
   display: flex;
-  flex-flow: row wrap;
- 
-}
-.forecast h4 {
-  display: block;
-  padding: 5px;
+  flex-flow:column;
+  align-items: center;
   text-align: center;
-  font-size: 1rem;
-  color:#14213D;
-  
-}
-.forecast-sec {
-  flex: 1 1 auto;
-  background-color: #E5E5E5;
- text-align: center;
-}
-.forecast-sec:hover {
-  background-color: rgba(240, 240, 240, 0.2);
-  color: #FCA311;
-}
-.forecast-sec img{
-  width:100px;
-}
-.article{
-  max-width:800px;
-  margin: 10px auto;
-  background-color: #E5E5E5;
-  
-  padding:5%;
-}
-.article img {
-  width: 100%;
-}
-.article h2{
-  margin: 0 auto;
-  padding:5px;
-}
-.contact-flex {
-  display: flex;
-  flex-flow: row wrap;
-  
-}
-
-.map {
-  flex: 1;
-  display: block;
-  margin: auto;
-}
-
-.contact-info {
-  flex: 1;
-  margin:5%;
-  padding:5%;
+  justify-content: space-around;
 }
 
 .hide-banner {
@@ -228,3 +160,48 @@ main {
   text-align: center;
   padding: 1em;
 } 
+
+.container{
+  
+    background-color:#E5E5E5;;
+    
+}
+div h2{
+  background-color:#14213D;
+  color: white;
+  
+  
+}
+
+div.pics img{
+  display: block;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 3px 1px #888;
+    border-radius: 3px;
+    border: 1px solid #888;
+   
+    
+}
+div.pics section{
+
+  padding-top: 15px;
+  
+  padding-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.name{
+  text-align: center;
+}
+.info{
+
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding: 5px;
+}
