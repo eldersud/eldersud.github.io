@@ -1,5 +1,9 @@
 @media only screen and (min-width: 72em) {
-    header img {
+  header, nav, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+  header img {
       width: 128px;
       height: auto;
     }
@@ -40,6 +44,12 @@
     .article p {
       font-size: 1.25em;
     }
-  
+    .contact{
+      display: flex;
+      flex-flow:row;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+  } 
   
   }

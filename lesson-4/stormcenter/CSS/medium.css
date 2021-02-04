@@ -38,11 +38,11 @@
         margin: auto;
       }
     
-      .contact-info {
-        flex: 1;
-        margin:5%;
-        padding:5%;
-      }
+      .contact{
+        display: flex;
+        flex-flow:row;
+        flex-wrap: wrap;
+        }  
       
     
       

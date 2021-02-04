@@ -140,22 +140,12 @@ main {
 }
  
 
-.contact-flex {
+.contact{
   display: flex;
-  flex-flow: row wrap;
-  
-}
-
-.map {
-  flex: 1;
-  display: block;
-  margin: auto;
-}
-
-.contact-info {
-  flex: 1;
-  margin:5%;
-  padding:5%;
+  flex-flow:column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
 }
 .hide-banner {
   display: none;
