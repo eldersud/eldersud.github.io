@@ -9,7 +9,7 @@ fetch(requestURL)
          let town=[5,6, 1]
         for (let i = 0; i < town.length; i++ ) 
         {
-            let card= document.createElement('section');
+            let sectionCard= document.createElement('section');
             let h2 = document.createElement('h2');
             h2.textContent = towns[town[i]].name;
             let motto=document.createElement('h3');
@@ -32,10 +32,10 @@ fetch(requestURL)
             statBlock.appendChild(year);
             statBlock.appendChild(population);
             statBlock.appendChild(rain);
-            card.appendChild(townName);
-            card.appendChild(statBlock);
-            card.appendChild(image);
+            sectionCard.appendChild(townName);
+            sectionCard.appendChild(statBlock);
+            sectionCard.appendChild(image);
 
-            document.querySelector('div.cards').appendChild(card);
+            document.querySelector('div.cards').appendChild(sectionCard);
         }
     });
