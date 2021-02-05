@@ -77,12 +77,12 @@
         padding:5%;
       }
       
-      .img_gallery {
+      .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .gallery {
+    .gallery-fig {
         width: 300px;
         height: auto;
     } 

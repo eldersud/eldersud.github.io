@@ -24,13 +24,13 @@
           font-size: 1.1rem;
     }
     
-     .img_gallery{
+     .gallery{
       grid-template-columns: 1fr 1fr 1fr;
       
       
   }
 
-.gallery:hover {
+.gallery-fig:hover {
   box-shadow: 0 0 30px#14213D;
     border-radius: 3px;
     border: 1px solid #888;
