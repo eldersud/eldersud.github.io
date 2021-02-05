@@ -26,7 +26,7 @@ fetch(requestURL)
             let statBlock = document.createElement('div');
             statBlock.className="info"
             let townName = document.createElement('div');
-            townName.className="town_name"
+            townName.className="name"
 
             townName.appendChild(h2);
             townName.appendChild(motto);
