@@ -63,12 +63,7 @@ h2{
   padding-right:30%;
   
 }
-h4{
-  
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  color:#FCA311;
-}
+
 
 
 p{
@@ -152,6 +147,7 @@ main {
   justify-content: space-around;
 }
 
+
 .hide-banner {
   display: none;
   margin: 20px;
@@ -160,8 +156,8 @@ main {
   text-align: center;
   padding: 1em;
 } 
-
-.container{
+/*----------*/
+main div section {
   
     background-color:#E5E5E5;;
     
@@ -172,8 +168,14 @@ div h2{
   
   
 }
+main div h3{
+  
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color:#FCA311;
+}
 
-div.pics img{
+div.cards img{
   display: block;
   max-width: 100%;
   margin-top: 10px;
@@ -185,7 +187,7 @@ div.pics img{
    
     
 }
-div.pics section{
+div.cards section{
 
   padding-top: 15px;
   
