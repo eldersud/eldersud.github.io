@@ -159,7 +159,7 @@ main {
 /*----------*/
 main div section {
   
-    background-color:#E5E5E5;;
+ background-color:#E5E5E5;;
     
 }
 div h2{
@@ -177,7 +177,7 @@ main div h3{
 
 div.cards img{
   display: block;
-  max-width: 100%;
+  max-width: 80%;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -190,7 +190,6 @@ div.cards img{
 div.cards section{
 
   padding-top: 15px;
-  
   padding-bottom: 15px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -198,12 +197,20 @@ div.cards section{
 .name{
   text-align: center;
 }
-.info{
 
+main p {
+  margin-left: 26px;
+  margin-right: 15px;
+}
+.info{
+  
   width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   
   padding: 5px;
+}
+div.contact .map{
+  max-width: 80%;
 }
