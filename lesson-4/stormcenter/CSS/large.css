@@ -48,8 +48,9 @@
       display: flex;
       flex-flow:row;
       flex-wrap: wrap;
-      max-width: 1200px;
+      max-width: 767px;
       margin: 0 auto;
+     
   } 
   
   }
