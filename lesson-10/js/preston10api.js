@@ -1,4 +1,4 @@
-// Actual variables
+
 const APIurl = 'https://api.openweathermap.org/data/2.5/';
 const weatherAPIurl = APIurl + 'weather';
 const forecastAPIurl = APIurl + 'forecast';
@@ -7,12 +7,11 @@ const apiUnits = '&units=imperial';
 const prestonURL = '?id=5604473' + apiID + apiUnits;
 
 
-// concatenating the links
 const prestonWeather = weatherAPIurl + prestonURL;
 const prestonForecast = forecastAPIurl + prestonURL;
 
 
-// Page selector
+
 let weatherURL = "";
 let forecastURL = "";
 if (document.getElementById("preston-body")) {
@@ -21,17 +20,16 @@ if (document.getElementById("preston-body")) {
 } 
 
 
-// Weather functions
+
 fetch(weatherURL)
     .then((response) => response.json())
     .then((jsObject) => {
         let t = parseFloat(jsObject.main.temp);
         let s = parseFloat(jsObject.wind.speed);
         let output = "N/A";
-        const imagesrc = 'https://openweathermap.org/img/wn/' + jsObject.weather[0].icon + '.png'; // note the concatenation
-        const desc = jsObject.weather[0].description; // reference the weather array
-        //gettin' the stuff!
-        document.getElementById('icon').setAttribute('src', imagesrc); // these two show icon
+        const imagesrc = 'https://openweathermap.org/img/wn/' + jsObject.weather[0].icon + '.png';
+        const desc = jsObject.weather[0].description; 
+        document.getElementById('icon').setAttribute('src', imagesrc); 
         document.getElementById('icon').setAttribute('alt', desc);
         document.getElementById('current').innerHTML = jsObject.weather[0].description;
         document.getElementById('temp').innerHTML = Math.round(t) + "&#8457;";
@@ -45,7 +43,7 @@ fetch(weatherURL)
         document.getElementById('humidity').innerHTML = jsObject.main.humidity;
         document.getElementById('wind-speed').innerHTML = Math.round(s) + " MPH";
     });
-    //5-day forecast
+    //--------------------------------------------------------------
 fetch(forecastURL)
     .then((response) => response.json())
     .then((forecastObject) => {
@@ -53,7 +51,7 @@ fetch(forecastURL)
         console.table(forecast)
         for (let day = 0; day < forecast.length; day++) {
 
-            //days of the week
+           
             let weatherDay = document.getElementsByClassName('day');
             for (let i = 0; i < weatherDay.length; i++) {
                 let longDate = new Date(forecast[day].dt_txt);
@@ -61,12 +59,12 @@ fetch(forecastURL)
                     weekday: "long"
                 });
             }
-            //temperature
+            
             let forecastTemp = document.getElementsByClassName('forecastTemp');
             for (let i = 0; i < forecastTemp.length; i++) {
                 forecastTemp[day].innerHTML = forecast[day].main.temp;
             }
-            //icon
+           
             let weatherIcon = document.getElementsByClassName("forcastimg");
             for (let i = 0; i < weatherIcon.length; i++) {
                 weatherIcon[day].setAttribute("src", `https://openweathermap.org/img/wn/${forecast[day].weather[0].icon}@2x.png`);

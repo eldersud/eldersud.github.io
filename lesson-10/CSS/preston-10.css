@@ -159,13 +159,17 @@ main {
       border: 1px solid #888;
       background-color: #E5E5E5;
       color:#14213D;
-      margin:0 auto;
+      margin: 10px;
      padding-left:10px;
      margin: 15px auto;
+     text-align: center;
+     max-width: 300px;
 }
+
 .forecast-block {
   display: flex;
   flex-flow: row wrap;
+  
  
 }
 .forecast h4 {
@@ -180,12 +184,16 @@ main {
   flex: 1 1 auto;
   background-color: #E5E5E5;
  text-align: center;
+ 
 }
 .forecast-sec:hover {
   background-color: rgba(240, 240, 240, 0.2);
   color: #FCA311;
 }
 .forecast-sec img{
+  width:100px;
+}
+.icon img{
   width:100px;
 }
 .article{
