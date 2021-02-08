@@ -24,24 +24,25 @@ if (document.getElementById("preston-body")) {
 fetch(weatherURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        let t = parseFloat(jsObject.main.temp);
-        let s = parseFloat(jsObject.wind.speed);
+        let temp = parseFloat(jsObject.main.temp);
+        let speed = parseFloat(jsObject.wind.speed);
         let output = "N/A";
         const imagesrc = 'https://openweathermap.org/img/wn/' + jsObject.weather[0].icon + '.png';
-        const desc = jsObject.weather[0].description; 
+        const weatherDesc = jsObject.weather[0].description; 
         document.getElementById('icon').setAttribute('src', imagesrc); 
-        document.getElementById('icon').setAttribute('alt', desc);
-        document.getElementById('current').innerHTML = jsObject.weather[0].description;
-        document.getElementById('temp').innerHTML = Math.round(t) + "&#8457;";
-        if (t <= 50 && s >= 3) {
-            let f = (35.74 + (0.6215 * t)) - (35.75 * (Math.pow(s, 0.16))) + (0.4275 * (t * (Math.pow(s, 0.16))));
-            output = Math.round(f);
+        document.getElementById('icon').setAttribute('style', "width:100px; height:100px;"); 
+        document.getElementById('icon').setAttribute('alt', weatherDesc);
+        document.getElementById('current').innerHTML = weatherDesc;
+        document.getElementById('temp').innerHTML = Math.round(temp) + "&#8457;";
+        if (temp <= 50 && speed >= 3) {
+            let faren = (35.74 + (0.6215 * temp)) - (35.75 * (Math.pow(speed, 0.16))) + (0.4275 * (temp * (Math.pow(speed, 0.16))));
+            output = Math.round(faren);
         };
 
         document.getElementById('highTemp').innerHTML = jsObject.main.temp_max + "&#8457;";
         document.getElementById("wind-chill").innerHTML = output + "&#8457;";
-        document.getElementById('humidity').innerHTML = jsObject.main.humidity;
-        document.getElementById('wind-speed').innerHTML = Math.round(s) + " MPH";
+        document.getElementById('humidity').innerHTML = jsObject.main.humidity+"%";
+        document.getElementById('wind-speed').innerHTML = Math.round(speed) + " MPH";
     });
     //--------------------------------------------------------------
 fetch(forecastURL)

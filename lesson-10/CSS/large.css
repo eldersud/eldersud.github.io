@@ -49,11 +49,10 @@
 
     .contact{
       display: flex;
-      flex-flow:row;
-      flex-wrap: wrap;
-      max-width: 600px;
-      margin: 0 auto;
+      flex-flow:column;
+      align-items: center;
       text-align: center;
+      justify-content: space-around;
      
   } 
   main.contact h2{
