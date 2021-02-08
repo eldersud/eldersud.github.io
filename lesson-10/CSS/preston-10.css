@@ -159,10 +159,13 @@ main {
       border: 1px solid #888;
       background-color: #E5E5E5;
       color:#14213D;
-      text-align: center;
+      margin: 10px;
+     padding-left:10px;
+     margin: 15px auto;
+     text-align: center;
      max-width: 300px;
 }
-.wheather-summary img{
+.forecast-sec img{
   width:100px;
 }
 

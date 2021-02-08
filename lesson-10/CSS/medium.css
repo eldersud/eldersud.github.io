@@ -33,34 +33,35 @@
       }
      .banner img{
        width:100%;
-       transition:3s;
-       overflow:hidden;
+       
      } 
-     .banner img:hover{
-        transform:scale(1.2);
-        overflow:hidden;
-      }
+     
     .banner-count{
         position: relative;
         margin: 10px auto;
         width: 100%;
         height: 500px;
+        overflow:hidden;
       }
     .wheather-summary{
         box-shadow: 1px 1px 3px 1px #888;
             border-radius: 3px;
-           background-color: rgba(240, 240, 240, 0.2);
-            color:#14213D;
-            max-width: 200px;
+           background-color: rgba(240, 240, 240, 0.5);
+           color:#14213D;
+            max-width: 250px;
             width:100%;
             margin:0 auto;
             position: absolute;
-            bottom: 10px;
+            top: 5%;
             left: 10%;
-            padding-left:10px;
             
-           
-      }
+             }
+             .wheather-summary img{
+                width:100px;
+                margin-top:-25px;
+                margin-bottom:-25px;
+                max-width: 100%;
+              }
       .contact{
         display: flex;
         flex-flow:row;
