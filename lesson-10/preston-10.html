@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body id="preston-body" >
 
   <header>
     <img alt="logo" src="../weather/images/imageonline-co-whitebackgroundremoved.png">
@@ -49,47 +49,44 @@
 
         <div class="wheather-summary">
           <h3>Wheather Summary</h3>
-          <p><strong>Currently:</strong><span id="current">Sunny</span></p>
-          <p><strong>Temperature:</strong><span id="temp">41</span>&deg;F</p>
+          <span id="imagesrc"></span> &nbsp; <img src="#" alt="#" id="icon">
+          <p><strong>Currently:</strong><span id="current"></span></p>
+          <p><strong>Temperature:</strong><span id="temp"></span>&deg;</p>
+          <p><strong>High:</strong> <span id="highTemp"></span></p>
+          <p><strong>Humidity:</strong><span id="humidity"></span>%</p>
+          <p><strong>Wind Speed:</strong><span id="wind-speed"></span></p>
           <p><strong>Wind Chill:</strong><span id="wind-chill"></span></p>
-          <p><strong>Humidity:</strong><span id="humidity">50</span>%</p>
-          <p><strong>Wind Speed:</strong><span id="wind-speed">5</span> mph</p>
         </div>
       </div>
 
     </section>
     <section class="Forecast">
-      <h2>Temperature Forecast</h2>
+      <h2 >5 day Forecast</h2>
       <div class="forecast-block">
         <div class="forecast-sec">
-          <h4>Monday</h4>
-          <img src="../weather/images/shine.png" alt="icons">
-          <p>˚F</p>
+          <span class="day"></span>
+          <img class="forcastimg" src="../weather/images/shine.png" alt="icons">
+          <p><span class="forecastTemp"></span>&#176;F</p>
         </div>
         <div class="forecast-sec">
-          <h4>Tuesday</h4>
-          <img src="../weather/images/shine.png" alt="icons">
-          <p>˚F</p>
+          <span class="day"></span>
+          <img class="forcastimg" src="../weather/images/shine.png" alt="icons">
+          <p><span class="forecastTemp"></span>&#176;F</p>
         </div>
         <div class="forecast-sec">
-          <h4>Wednesday</h4>
-          <img src="../weather/images/imageonline-co-whitebackgroundremoved2.png" alt="icons">
-          <p>˚F</p>
+          <span class="day"></span>
+          <img class="forcastimg" src="../weather/images/imageonline-co-whitebackgroundremoved2.png" alt="icons">
+          <p><span class="forecastTemp"></span>&#176;F</p>
         </div>
         <div class="forecast-sec">
-          <h4>Thursday</h4>
-          <img src="../weather/images/imageonline-co-whitebackgroundremoved2.png" alt="icons">
-          <p>˚F</p>
+          <span class="day"></span>
+          <img class="forcastimg" src="../weather/images/imageonline-co-whitebackgroundremoved2.png" alt="icons">
+          <p><span class="forecastTemp"></span>&#176;F</p>
         </div>
         <div class="forecast-sec">
-          <h4>Friday</h4>
-          <img src="../weather/images/imageonline-co-whitebackgroundremoved3.png" alt="icons">
-          <p>˚F</p>
-        </div>
-        <div class="forecast-sec">
-          <h4>Saturday</h4>
-          <img src="../weather/images/imageonline-co-whitebackgroundremoved2.png" alt="icons">
-          <p>˚F</p>
+          <span class="day"></span>
+          <img class="forcastimg" src="../weather/images/imageonline-co-whitebackgroundremoved3.png" alt="icons">
+          <p><span class="forecastTemp"></span>&#176;F</p>
         </div>
       </div>
     </section>
@@ -147,6 +144,7 @@
   <script src="../Responsive-Images/js/preston.js"></script>
   <script src="../Responsive-Images/js/windchill.js"></script>
   <script src="../Responsive-Images/js/hidebanner.js"></script>
+  <script src="../lesson-10/js/preston10api.js"></script>
 
 </body>
 
