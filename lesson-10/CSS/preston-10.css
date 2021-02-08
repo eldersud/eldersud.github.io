@@ -159,11 +159,11 @@ main {
       border: 1px solid #888;
       background-color: #E5E5E5;
       color:#14213D;
-      margin: 10px;
-     padding-left:10px;
-     margin: 15px auto;
-     text-align: center;
+      text-align: center;
      max-width: 300px;
+}
+.wheather-summary img{
+  width:100px;
 }
 
 .forecast-block {
@@ -178,8 +178,8 @@ main {
   text-align: center;
   font-size: 1rem;
   color:#14213D;
-  
-}
+  }
+
 .forecast-sec {
   flex: 1 1 auto;
   background-color: #E5E5E5;
