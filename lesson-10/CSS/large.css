@@ -47,14 +47,7 @@
       font-size: 1.25em;
     }
 
-    .contact{
-      display: flex;
-      flex-flow:column;
-      align-items: center;
-      text-align: center;
-      justify-content: space-around;
-     
-  } 
+  
   main.contact h2{
     text-align: center;
     padding-left:50%;

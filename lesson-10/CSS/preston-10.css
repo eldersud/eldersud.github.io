@@ -166,36 +166,27 @@ main {
      max-width: 300px;
 }
 .forecast-sec img{
-  width:100px;
+  width:100%;
+  max-width: 100px;
 }
 
 .forecast-block {
   display: flex;
-  flex-flow: row wrap;
   
- 
 }
-.forecast h4 {
-  display: block;
-  padding: 5px;
-  text-align: center;
-  font-size: 1rem;
-  color:#14213D;
-  }
 
 .forecast-sec {
   flex: 1 1 auto;
   background-color: #E5E5E5;
  text-align: center;
+ padding-top:5px;
  
 }
 .forecast-sec:hover {
   background-color: rgba(240, 240, 240, 0.2);
   color: #FCA311;
 }
-.forecast-sec img{
-  width:100px;
-}
+
 
 .article{
   max-width:800px;
