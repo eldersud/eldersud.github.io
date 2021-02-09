@@ -19,10 +19,10 @@ main{
       }
       h2{
         font-size: 3rem;
-        padding-left: 15%;
+        
         padding-right: none;
       }
-  
+      
     .motto {
       font-size: 1.3rem;
     }
@@ -33,6 +33,7 @@ main{
     
      .banner{
        max-width: 1200px;
+       margin-bottom: 7%;
      }
      .banner img{
        max-width: 1200px;
@@ -45,14 +46,22 @@ main{
          
     } 
      .wheather-summary{
-      top: 15%;
+      top: 12%;
       position: absolute;
       
 
     }
+    .wheather-summary p{
+                
+      margin:15px auto;
+      
+      
+     
+    }
     .Forecast{
       max-width: 800px;
       padding-left: 8.5%;
+      margin-bottom: 10%;;
     }
     .article{
       

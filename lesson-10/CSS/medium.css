@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 680px) {
     header img {
         width: 80px;
         height: auto;
@@ -48,19 +48,35 @@
             border-radius: 3px;
            background-color: rgba(240, 240, 240, 0.5);
            color:#14213D;
-            max-width: 250px;
+            max-width: 200px;
             width:100%;
             margin:0 auto;
             position: absolute;
             top: 5%;
-            left: 10%;
+            left: 4%;
+            line-height: -3px;
+            padding-bottom: 10px;
             
              }
              .wheather-summary img{
                 width:100px;
-                margin-top:-25px;
-                margin-bottom:-25px;
+                margin-top:-30px;
+                margin-bottom:-20px;
                 max-width: 100%;
+              }
+              .wheather-summary p{
+                
+                margin:5px auto;
+                
+                
+               
+              }
+              .banner .weather-summary{
+                width: 100%;
+               
+              }
+              .banner{
+                margin-bottom:-17%;
               }
 
               .forecast-block {
@@ -68,6 +84,7 @@
                 flex-flow: none;
                 
               }
+              
       .contact{
         display: flex;
         flex-flow:row;
