@@ -35,6 +35,15 @@
        width:100%;
        
      } 
+     .hero img{
+      width:100%;
+      transition:3s;
+      overflow:hidden;
+    } 
+    .hero img:hover{
+       transform:scale(1.1);
+       overflow:hidden;
+     }
      
     .banner-count{
         position: relative;

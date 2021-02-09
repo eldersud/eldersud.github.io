@@ -39,6 +39,10 @@ main{
        max-width: 1200px;
        width:100%;
      }
+     .hero img:hover{
+      transform:scale(1.2);
+      overflow:hidden;
+    }
     .banner-count{
       position: relative;
       max-width: 1200px;
