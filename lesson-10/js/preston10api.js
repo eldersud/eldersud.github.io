@@ -53,17 +53,17 @@ fetch(forecastURL)
         for (let day = 0; day < forecast.length; day++) {
 
            
-            let weatherDay = document.getElementsByClassName('day');
-            for (let i = 0; i < weatherDay.length; i++) {
+            let weekDay = document.getElementsByClassName('day');
+            for (let i = 0; i < weekDay.length; i++) {
                 let longDate = new Date(forecast[day].dt_txt);
-                weatherDay[day].textContent = longDate.toLocaleString("en-us", {
+                weekDay[day].textContent = longDate.toLocaleString("en-us", {
                     weekday: "long"
                 });
             }
             
             let forecastTemp = document.getElementsByClassName('forecastTemp');
             for (let i = 0; i < forecastTemp.length; i++) {
-                forecastTemp[day].innerHTML = forecast[day].main.temp;
+                forecastTemp[day].innerHTML = forecast[day].main.temp+" &#176;F";
             }
            
             let weatherIcon = document.getElementsByClassName("forcastimg");
