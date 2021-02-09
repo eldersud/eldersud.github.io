@@ -94,6 +94,12 @@
                 flex-flow: none;
                 
               }
+              .article img {
+                max-width:350px;
+                
+                float: right;
+                padding-right: 10px;
+              }
               
       .contact{
         display: flex;
