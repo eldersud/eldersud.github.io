@@ -61,6 +61,9 @@ h2{
   font-family: "Open Sans", sans-serif;
  
 }
+.forecast-sec-head{
+  font-family: "Open Sans", sans-serif;
+}
 .Forecast h2{
   padding-left:1%;
   text-align: center;
@@ -185,11 +188,13 @@ main {
   width:100%;
   max-width: 100px;
 }
-
 .forecast-block {
   display: flex;
+  flex-flow: row wrap;
   
 }
+
+
 
 .forecast-sec {
   flex: 1 1 auto;
