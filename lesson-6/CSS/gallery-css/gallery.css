@@ -78,11 +78,7 @@ text-decoration: none;
   
 }
   
- a{
-    color:#FCA311;
-    text-decoration:none;
-    font-family: "Open Sans", sans-serif;
-  }
+
   
   .ul-nav a:hover{
 background-color: #FCA311;
@@ -116,6 +112,14 @@ main h2{
 
 p{
   font-family: 'Roboto', sans-serif;
+}
+a{
+  color:#FCA311;
+  text-decoration:none;
+  font-family: "Open Sans", sans-serif;
+}
+a:hover{
+  color:white;
 }
 
  /*------------GALLERY-----------*/

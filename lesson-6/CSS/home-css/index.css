@@ -103,6 +103,9 @@ a{
   text-decoration:none;
   font-family: "Open Sans", sans-serif;
 }
+a:hover{
+  color:white;
+}
 
 h1 {
   
