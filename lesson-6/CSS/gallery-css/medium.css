@@ -1,0 +1,67 @@
+
+@media only screen and (min-width: 37.5em) {
+   /*------------HEADER-----------*/
+  header img {
+        width: 80px;
+        height: auto;
+    }
+    .motto {
+      font-size: 1rem;
+  }
+
+    /*------------MAIN-----------*/
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    main h2{
+      font-size: 2em;
+    }
+
+    
+/*------------NAV-----------*/
+    
+    .ul-nav {
+        display: flex;
+    }
+    
+    .ul-nav li:first-child{
+        display: none;
+    }
+
+    .ul-nav li{
+        display: block;
+        flex: 1 1 100%;
+    }
+    
+
+       /*------------GALLERY-----------*/
+       .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gallery-fig {
+        width: 300px;
+        height: auto;
+    } 
+   
+              /*------------CONTACT INFO-----------*/
+              
+              .contact{
+                display: flex;
+                flex-flow:row;
+                flex-wrap: wrap;
+                align-items: center;
+                 text-align: center;
+                max-width: 600px;
+                padding-left: 10%;
+                
+                }  
+      /*------------FOOTER-----------*/
+footer{
+
+    margin-top: 20px;
+   }
+      
+}

@@ -1,0 +1,62 @@
+
+@media only screen and (min-width: 37.5em) {
+    
+  /*------------HEADER-----------*/
+  header img {
+        width: 80px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2{
+        
+        font-size: 2em;
+        
+        
+      }
+
+    .motto {
+        font-size: 1rem;
+    }
+
+    /*------------NAV-----------*/
+    .ul-nav {
+        display: flex;
+    }
+    
+    .ul-nav li:first-child{
+        display: none;
+    }
+
+    .ul-nav li{
+        display: block;
+        flex: 1 1 100%;
+    }
+    
+     /*------------CONTACT-----------*/
+      .contact-flex {
+        display: flex;
+      }
+    
+      .map {
+        flex: 1;
+        display: block;
+        margin: auto;
+      }
+      .contact h2{
+        font-size: 2em;
+      }
+    
+      .contact{
+        display: flex;
+        flex-flow:row;
+        flex-wrap: wrap;
+        
+        }  
+      
+    
+      
+      
+}

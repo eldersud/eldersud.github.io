@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description"
+    content="Complete the Weather Site assignment for Elder Cuases in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <title>Elder Cuases |WDD230 S#16|Fish Haven</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../lesson-6/CSS/normalize.css">
+  <link rel="stylesheet" href="../lesson-6/CSS/cities-css/small.css">
+  <link rel="stylesheet" href="../lesson-6/CSS/cities-css/medium.css">
+  <link rel="stylesheet" href="../lesson-6/CSS/cities-css/large.css">
+
+</head>
+
+<body id="fish-body" >
+
+  <header>
+    <img alt="logo" src="../lesson-6/images/logo.png">
+    <section>
+      <h1>What's app Sky?</h1>
+      <div class="motto">What is going on today? </div>
+    </section>
+  </header>
+  <nav>
+    <ul class="ul-nav">
+      <li><a class="ham" href="#">&#9776; Menu</a></li>
+      <li><a href="../lesson-6/index.html">Home</a></li>
+      <li ><a href="../lesson-6/preston.html">Preston</a></li>
+      <li><a href="../lesson-6/sodasprings.html">Soda Springs</a></li>
+      <li class="active"><a href="#">Fish Haven</a></li>
+      <li><a href="../lesson-6/stormcenter.html">Storm Center</a></li>
+      <li><a href="../lesson-6/gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Fish Haven Idaho</h2>
+    
+    <section class="banner">
+      <div class="banner-count">
+        <div class="hero"> 
+          <picture class="hero-picture">
+           <source srcset="../lesson-6/images/haven-large.jpg" media="(min-width:72em)">
+          <source srcset="../lesson-6/images/haven-mid.jpg" media="(min-width:37.5em) and (max-width:72em)">
+          <img class="hero-img" src="../lesson-6/images/haven-smal.jpg" alt="banner">
+          </picture>
+      </div>
+
+        <div class="wheather-summary">
+          <h3>Wheather Summary</h3>
+           <img src="#" alt="#" id="icon">
+          <p><strong>Currently:</strong><span id="current"></span></p>
+          <p><strong>Temperature:</strong><span id="temp"></span>&deg;</p>
+          <p><strong>High:</strong> <span id="highTemp"></span></p>
+          <p><strong>Humidity:</strong><span id="humidity"></span></p>
+          <p><strong>Wind Speed:</strong><span id="wind-speed"></span></p>
+          <p><strong>Wind Chill:</strong><span id="wind-chill"></span></p>
+        </div>
+    
+      </div>
+
+    </section>
+    <section class="Forecast">
+      <h2 >Five Day Forecast</h2>
+      <div class="forecast-block">
+        <div class="forecast-sec">
+          <p class="forecast-sec-head"><span class="day"></span></p>
+          <img class="forcastimg" src="../lesson-6/images/shine.png" alt="weather icons">
+          <p><span class="forecastTemp"></span></p>
+        </div>
+        <div class="forecast-sec">
+          <p class="forecast-sec-head"><span class="day"></span></p>
+          <img class="forcastimg" src="../lesson-6/images/shine.png" alt="weather icons">
+          <p><span class="forecastTemp"></span></p>
+        </div>
+        <div class="forecast-sec">
+          <p class="forecast-sec-head"><span class="day"></span></p>
+          <img class="forcastimg" src="../lesson-6/images/cloudy.png" alt="weather icons">
+          <p><span class="forecastTemp"></span></p>
+        </div>
+        <div class="forecast-sec">
+          <p class="forecast-sec-head"><span class="day"></span></p>
+          <img class="forcastimg" src="../lesson-6/images/rainy.png" alt="weather icons">
+          <p><span class="forecastTemp"></span></p>
+        </div>
+        <div class="forecast-sec">
+          <p class="forecast-sec-head"><span class="day"></span></p>
+          <img class="forcastimg" src="../lesson-6/images/snowing.png" alt="weather icons">
+          <p><span class="forecastTemp"></span></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="city-event"></div>
+   
+    <section class="article">
+
+      <h2>Little Fish Haven, Idaho, is paradise for residents</h2>
+      
+      <img src="../lesson-6/images/fishp.jpg" alt="fish haven view">
+    
+      
+      <p>FISH HAVEN, Idaho — It's an undiscovered paradise. Most people who drive by recognize the raw beauty 
+        of a place ringed by high desert mountains and bordered by the shores of a vast natural lake.
+        In winter the hills outside this small paradise echo with the sharp whine of snow machines and in
+         the summer thousands of tourists ply the lake's bright blue waters with water skis or fishing poles.
+        But they don't live there. It's different living in Fish Haven.
+        The little town sits just on the Idaho side of U.S. Highway 89 tucked in between Bear Lake's west
+         side and the mountains.
+        It's not technically a city or a town, it's really nothing more than the proverbial wide spot in 
+        the road. But people call it a town even though there isn't a city council, just the Bear Lake County
+         Commission that oversees development there.
+        </p>
+        <a target="_blank" href="https://www.deseret.com/2000/12/26/19546274/little-fish-haven-idaho-is-paradise-for-residents">Read More...</a>
+        
+        </section>
+    
+  </main>
+  <footer>
+    <section class="contact">
+      <h2>Contact Information</h2>
+
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1611192522558!5m2!1sen!2sus"
+          frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+<div>
+      <div>
+        <div class="contact-info"></div>
+        <p>Location: Preston, ID 83263</p>
+        <p>Tel: (99)999-9999</p>
+        <p>Email: theweathersite@tws.com</p>
+      </div>
+
+      <div id="social-media">
+        <a target="_blank" href="https://www.facebook.com/">
+          <img alt="facebook icon"
+            src="../lesson-6/images/face.png">
+          </a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCEof1y79UCMfKEyDLnqikJQ/videos">
+          <img
+            alt="youtube icon" src="../lesson-6/images/you.png">
+          </a>
+        <a target="_blank" href="https://www.instagram.com/?hl=es-la">
+          <img alt="instagram icon"
+            src="../lesson-6/images/insta.png">
+          </a>
+
+      </div>
+    </div>
+    </section>
+    <div class="footer-info">
+    <p class="fpage">
+      &copy; <span id="currentYear"></span> | <a target="_blank" href="../index.html">Elder Cuases</a> | Quito-Ecuador |
+      <a target="_blank" href="https://www.byui.edu/"> BYUI Online Learning</a>
+    </p>
+    <div id="lastup"></div>
+    <div>
+      <p><a target="_blank" href="https://openweathermap.org/">Weather Source | OpenWeatherMap.org</a></p>
+    </div>
+  </div>
+  </footer>
+  <script src="../lesson-6/js/home-page.js"></script>
+  <script src="../lesson-6/js/preston10api.js"></script>
+  <script src="../lesson-6/js/cityEvents.js"></script>
+
+</body>
+
+</html>

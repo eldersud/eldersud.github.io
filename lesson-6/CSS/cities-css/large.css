@@ -1,0 +1,121 @@
+@media only screen and (min-width: 72em) {
+  
+  header, nav, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*------------HEADER-----------*/
+
+  
+  header img {
+      width: 128px;
+      height: auto;
+    }
+  
+    h1 {
+      font-size: 3rem;
+      }
+      h2{
+        font-size: 3rem;
+        
+      }
+      
+    .motto {
+      font-size: 1.3rem;
+    }
+  
+    /*------------NAV-----------*/
+    
+    nav a {
+          font-size: 1.1rem;
+    }
+    
+/*------------MAIN-----------*/
+
+main{
+  max-width: 1000px;
+    margin: 0 auto;
+}
+
+    /*------------BANNER-----------*/
+     .banner{
+       max-width: 1200px;
+       margin-bottom: 7%;
+     }
+     .banner img{
+       max-width: 1200px;
+       width:100%;
+     }
+     .hero img:hover{
+      transform:scale(1.2);
+      overflow:hidden;
+    }
+    .banner-count{
+      position: relative;
+      max-width: 1200px;
+      width:100%;
+         
+    } 
+
+
+    /*------------WEATHER SUMMARY-----------*/
+     .wheather-summary{
+      top: 12%;
+      position: absolute;
+      
+
+    }
+    .wheather-summary p{
+                
+      margin:15px auto;
+      
+      
+     
+    }
+
+    /*------------FORECAST-----------*/
+    .Forecast{
+      max-width: 800px;
+      padding-left: 8.5%;
+      margin-bottom: 10%;;
+    }
+    /*------------CITY EVENTS-----------*/
+.city-event{
+  margin-bottom:7%;
+  font-size: 2em;
+}
+
+    /*------------ARTICLE-----------*/
+    .article{
+      
+      margin: 10px auto;
+      background-color: #E5E5E5;
+     
+      padding:5%;
+    }
+    .article img {
+      max-width:250px;
+      width: 100%;
+      float: right;
+      
+    }
+    .article p {
+      font-size: 1.25em;
+    }
+
+  /*------------CONTACT-----------*/
+  
+    main.contact h2{
+    text-align: center;
+    padding-left:50%;
+  }
+
+  .contact h2{
+    font-size: 2em;
+  }
+  .contact{
+    padding-left: 20%;;
+  }
+  
+  }
