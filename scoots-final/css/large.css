@@ -135,5 +135,19 @@ main{
   .contact{
     padding-left: 20%;;
   }
+
+  .rentaloptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:center;
+    text-align: center;
+    border:white 2px dotted;
+}
+.rentaloptions p {
+    font-family:"Nunito", Verdana, sans-serif;
+    text-align:left;
+    padding-left:50px;
+    padding-right:10px;
+ }
   
   }

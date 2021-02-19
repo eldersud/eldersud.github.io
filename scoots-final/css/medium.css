@@ -189,5 +189,15 @@ div.cards section:nth-child(2) div.name{
          text-align: center;
         max-width: 550px;
         padding-left: 10%;
-        }        
+        }   
+        
+        /*-------------------------rentals-------------------*/
+
+        .rentaloptions {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          justify-items:center;
+          text-align: center;
+          border:white 2px dotted;
+      }
 }

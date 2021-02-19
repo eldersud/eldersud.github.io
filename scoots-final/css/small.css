@@ -529,4 +529,29 @@ form div.button-cont {
   font-size: 3em;
   
 }
+/*-------------------------rentals-------------------*/
+.rentaloptions {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items:center;
+  text-align: center;
+ padding-bottom:20px;
+}
+
+.rentaloptions section  {
+  background-color: #E5E5E5;
+  width:100%;
+  padding-bottom:20px;
+}
+
+.rentaloptions img {
+  width: 40%;
+  border-radius: 3px;
+}
+.rentaloptions p {
+  
+  text-align:center;
+  padding-left:50px;
+  padding-right:10px;
+}
    
