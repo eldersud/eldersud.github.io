@@ -137,6 +137,9 @@ h2{
     font-family: "Open Sans", sans-serif;
   }
   a:hover{
+    color:#FF4A1C;
+  }
+  footer a:hover{
     color:white;
   }
   
@@ -274,7 +277,12 @@ h2{
  /*------------CARDS-----------*/
  main div section {
   
-  background-color:#E5E5E5;;
+  background-color:#E5E5E5;
+     
+ }
+ main div section:hover{
+  
+  background-color: rgba(95, 129, 16, 0.2);
      
  }
  .main-card p{
@@ -379,7 +387,25 @@ h2{
    overflow:hidden;
   
  }
-/*------------FTERMS AND CONDITIONS-----------*/
+ .locations{
+  display: flex;
+  flex-flow:column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+ }
+ .div-location{
+  max-width: 400px;
+  width:100%;
+  background-color: #E5E5E5;
+  border-radius: 10px;
+  margin:15px auto;
+}
+.div-location:hover{
+  
+  background-color: rgba(95, 129, 16, 0.2);
+}
+/*------------TERMS AND CONDITIONS-----------*/
 
 .terms{
   
@@ -598,8 +624,8 @@ form div.button-cont {
   padding-bottom:20px;
 }
 .rentaloptions section:hover {
-  background-color: rgba(240, 240, 240, 0.2);
-  color: #ff4a1c;
+  background-color: rgba(95, 129, 16, 0.2);
+  color: #0EABF3;
 }
 
 .rentaloptions img {
@@ -628,4 +654,13 @@ form div.button-cont {
   text-align: center;
   margin-bottom: 15px;
 }
+
+  /*------------FORM-----------*/
+  .resources{
+    padding: 30px;
+    width:100%;
+  }
+  .resources ul{
+    margin-left:15%;
+  }
    
