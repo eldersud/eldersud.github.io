@@ -29,7 +29,7 @@ fetch(requestURL)
     rentaldetail.appendChild(walkf);
     let img=document.createElement("img");
     img.setAttribute("src", rentals[i].img);
-    img.setAttribute("alt", rentals[i].model + "" + rentals[i].type +"" + i+1);
+    img.setAttribute("alt", rentals[i].model + "" + rentals[i].type );
     rentaldetail.appendChild(img);
     document.querySelector("table.rentaloptions").appendChild(rentaldetail);
 
