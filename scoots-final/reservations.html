@@ -57,7 +57,7 @@
         </div>
       </div>
     </section>
-    <div class="terms">
+    <section class="terms">
       <h1>Rental Agreement</h1>
       <p>To guarantee a quality service and the safety of both parties,
          please read the following information, if you agree continue the contract by 
@@ -74,14 +74,14 @@
         <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
         <li>Rentals may be returned to either location.</li>
       </ol>
-      <h3 class="check">I accept the terms and conditions <input type="checkbox" id="display" required> </h3>
-    </div>
+      <h3 class="check">I accept the terms and conditions <input type="checkbox" class="display" required> </h3>
+    </section>
     <section class="form-sec">
       <h2>Please Fill This Form!</h2>
       <form method="get" action="../scoots-final/thanks.html">
 
         <fieldset>
-          <legend>Contact Information</legend>
+          <legend>Personal Information</legend>
           <label class="lab">Full Name
             <input placeholder="Your Name" type="text" name="fullname" pattern="([a-zA-Z\s]){5,}" required>
           </label>
@@ -106,7 +106,7 @@
         </fieldset>
 
         <fieldset>
-          <legend>Rental Information</legend>
+          <legend>Rental Details</legend>
           <label class="lab">Rental Date<input type="date" name="rentaldate"></label>
           <label class="lab">Vehicle
             <input list="vehicle" name="rentaltype">

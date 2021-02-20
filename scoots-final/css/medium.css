@@ -188,6 +188,12 @@ div.cards section:nth-child(2) div.name{
         
         }   
         
+        /*------------FTERMS AND CONDITIONS-----------*/
+
+.terms{
+  margin-top:7%;
+  
+}
         /*-------------------------rentals-------------------*/
 .rental-sec h1{
   
