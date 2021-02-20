@@ -1,27 +1,24 @@
 {
     "rentinfo": [
       {
-        "Type": "Honda Motor Scooters",
-        "motto": "Ideal for a couple outing and exploring the island ",
+        "Type": "Honda Scooters",
+        "motto": "Ideal for a couple outing and exploring the island. ",
         "persons":"2",
         "price": " Since 20 Dollars!",
-        "averageRainfall":"17",
         "img": "images/info-scoots.jpg"
         },
       {
         "Type": "ATV Side-by-Side",
-        "motto": "Ideal for exploring places with rough terrain and sand ",
+        "motto": "Ideal for exploring places with rough terrain and sand. ",
         "persons":"4",
         "price": " Since 50 Dollars!",
-        "averageRainfall":"17",
         "img": "images/ondajeep.jpg"
         },
       {
         "Type": "Jeep Rentals",
-        "motto": "Ideal for going out with family or friends ",
+        "motto": "Ideal for going out with family or friends more comfortable. ",
         "persons":"5",
         "price": " Since 60 Dollars!",
-        "averageRainfall":"17",
         "img": "images/wrangler-4doors.jpg"
       }
     ]

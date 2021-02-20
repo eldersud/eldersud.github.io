@@ -1,6 +1,6 @@
 
-const RentalUrl = "https://eldersud.github.io/eldersud.github.io/scoots-final/data/price.json";
-fetch(RentalUrl)
+const requestURL = "https://eldersud.github.io/eldersud.github.io/scoots-final/data/price.json";
+fetch(requestURL)
       .then(function (response) {
         return response.json();
       })

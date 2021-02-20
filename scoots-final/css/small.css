@@ -206,16 +206,15 @@ h2{
 }
 /*-Weather summary-*/
 .wheather-summary{
-  box-shadow: 1px 1px 3px 1px #888;
-      border-radius: 3px;
-      border: 1px solid #888;
-      background-color: #E5E5E5;
+  
+  background-color: #E5E5E5;
       color:#14213D;
       margin: 10px;
      padding-left:10px;
      margin: 15px auto;
      text-align: center;
-     max-width: 300px;
+     line-height: 40px;
+     
 }
 
 /*-Forecast-*/
@@ -240,7 +239,7 @@ h2{
 }
 .forecast-sec:hover {
   background-color: rgba(240, 240, 240, 0.2);
-  color: #FCA311;
+  color: #0EABF3;;
 }
 .forecast-sec-head{
   font-family: "Open Sans", sans-serif;
@@ -259,6 +258,7 @@ h2{
   padding:5%;
 }
 .article img {
+  margin-bottom:20px;
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
@@ -278,17 +278,20 @@ h2{
      
  }
  div h2{
-   background-color:#14213D;
-   color: white;
-   
+   color: #14213D;;
+   text-align: center;
+   font-size: 30px;
    
  }
  main div h3{
    
    font-family: "Open Sans", sans-serif;
    text-align: center;
-   color:#FCA311;
+   color:#0EABF3;
    padding:3%;
+ }
+ .main-card h2{
+   text-align: center;
  }
  
  div.cards img{
@@ -329,7 +332,26 @@ h2{
  }
 
 
-/*------------CONTACT-----------*/
+
+ 
+
+
+   /*------------FOOTER-----------*/
+  
+   .footer-info{
+     margin-top:10px;
+     border-radius: 3px;
+    background-color:#0EABF3;
+    color:white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+    
+   } 
+   /*------------CONTACT-----------*/
 .contact{
   display: flex;
   flex-flow:column;
@@ -350,98 +372,69 @@ h2{
    overflow:hidden;
   
  }
- 
+/*------------FTERMS AND CONDITIONS-----------*/
 
-
-   /*------------FOOTER-----------*/
-   
-   .footer-info{
-     margin-top:10px;
-     border-radius: 3px;
-    background-color:#0EABF3;
-    color:white;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    text-align: center;
-    
-   } 
-
-   /*------------FORM-----------*/
-.storm-p{
-  color: #FCA311;
-  background-color: #E5E5E5;
-  margin: 5%;
+.terms{
+  background-color: #CBF3F0;
+  border-radius: 10px;
+}
+.terms h1{
+  text-align: center;
+}
+.terms h3{
+  text-align: center;
+  color:#FF4A1C;
+}
+.terms ol{
+  padding:10px;
+  margin-left:40px;
   font-family: "Open Sans", sans-serif;
-  padding-left:4%;
-
+  line-height: 30px;
+}
+.terms p{
+  font-family: "Open Sans", sans-serif;
+  color:#FF4A1C;
 }
 
 
-form div.vspace {
-  height: 36px;
+   /*------------FORM-----------*/
+main form {
+  
+ padding:10px;
+ 
+ 
+}
+form legend{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  color: #FCA311;
 }
 
 
 form fieldset {
+  background-color: #E5E5E5;
   margin: 2rem 2%;
   border-radius: 7px;
   padding: 0 4% 2rem 4%;
   box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-form legend {
-  font-size: 1.2rem;
-  margin: 0 1rem;
-  padding: 0 .5rem;
-  color: #FCA311;
+form label.lab, form div {
+  display:block;
+  padding-top:20px;
+  font-size:1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.number{
+  display:block;
+  padding-top:20px;
+  font-size:1rem;
+  font-family: "Open Sans", sans-serif;
 }
 
-form label.lab-class,
-form div {
-  display: block;
-  padding-top: 1rem;
-}
-
-form label.lab-class input,
-form label.lab-class select,
-form label.lab-class textarea {
-  -webkit-appearance: none;
-  display: block;
-  font-size: 1rem;
-  border: solid 1px #999;
-  border-radius: 4px;
-  padding: 0.75rem;
-  color: #555;
-  width: 89%;
-  max-width: 20rem;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-form label input:focus,
-form label select:focus,
-form label textarea:focus {
-  outline: none !important;
-  box-shadow: 0 0 5px #FCA311;
-}
-
-form label.danger-lab {
-  padding: 0.3rem;
-}
-
-form label.lab-class input:required {
-  border-left: #14213D solid 4px;
-}
-
-form label.lab-class input:required:valid {
-  border-left: #FCA311 solid 4px;
-}
-
-
-
-form label.severity span.severity-labs {
+form label.number span.number-labs {
   max-width: 21.5rem;
   display: flex;
   justify-content: space-between;
@@ -450,24 +443,25 @@ form label.severity span.severity-labs {
   margin-bottom: -10px;
 }
 
-form label.severity span.severity-labs span.label-box-severety {
+form label.number span.number-labs span.label-box-number {
   display: flex;
   width: 20px;
   justify-content: center;
   padding: 0;
 }
 
-form label.severity span.severity-labs span.label-box-severety span {
+form label.number span.number-labs span.label-box-number span {
   padding-top: 0;
   font-size: 0.8rem;
 }
 
-form label.severity input {
+form label.number input {
   -webkit-appearance: none;
   display: block;
   max-width: 21.5rem;
   background-color: rgb(219, 218, 218);
 }
+
 
 input[type=range] {
   margin: 20px 0 10px 0;
@@ -488,15 +482,63 @@ input[type=range]::-webkit-slider-thumb {
   background:#FCA311;
 }
 
-
-
-form label.lab-class select.regions {
-  width: 98%;
-  max-width: 21.5rem;
+form label.lab input, form label.lab select {
+  -webkit-appearance:none;
+  display: block;
+  font-size: 1rem;
+  border:1px solid #999;
+  border-radius:4px;
+  padding:.7rem;
+  color:#555;
+  width:100%;
+  max-width:20rem;
+  background-color: rgb(238, 238, 238);
+  
   
 }
+form label input:focus,
+form label select:focus,
+form label textarea:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px #FCA311;
+}
 
-form div.divlabel {
+textarea {
+  border-radius: 4px;
+  width: 100%;
+  max-width: 20rem;
+  height: 10rem;
+  padding:10px;
+  background-color: rgb(238, 238, 238);
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width:20rem;
+  padding-top:2rem;
+}
+
+form label datalist{
+  width:100%;
+  max-width:20rem;
+  margin:0;
+}
+
+
+form label {
+  display:block;
+  padding:.75rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+form div {
   padding-top: 1rem;
 }
 
@@ -511,12 +553,15 @@ form input.button {
   max-width: 13rem;
   height: 2.7rem;
   font-size: 1.2rem;
+  box-shadow: 1px 1px 3px 1px #888;
+    border-radius: 10px;
+    border: 1px solid #888;
   
 }
 
 input[type="submit"]:hover {
-  background-color:#14213D;
-  color: #FCA311;
+  background-color:#0EABF3;
+  color: white;
 }
 
 form div.button-cont {
@@ -543,15 +588,35 @@ form div.button-cont {
   width:100%;
   padding-bottom:20px;
 }
+.rentaloptions section:hover {
+  background-color: rgba(240, 240, 240, 0.2);
+  color: #ff4a1c;
+}
 
 .rentaloptions img {
   width: 40%;
   border-radius: 3px;
+  margin-top:10px;
+  
 }
+
 .rentaloptions p {
   
   text-align:center;
   padding-left:50px;
   padding-right:10px;
+}
+.rental-link:hover {
+  color:#14213D;
+  
+}
+.rental-sec h1{
+  text-align: center;
+  
+}
+.rental-sec h3{
+  color:#0EABF3;
+  text-align: center;
+  margin-bottom: 15px;
 }
    

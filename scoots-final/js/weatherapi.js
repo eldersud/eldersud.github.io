@@ -4,36 +4,16 @@ const weatherAPIurl = APIurl + 'weather';
 const forecastAPIurl = APIurl + 'forecast';
 const apiID = '&appid=727f53b8cdaee659ac2e713f75c01722';
 const apiUnits = '&units=imperial';
-const prestonURL = '?id=5604473' + apiID + apiUnits;
-const sodaspringsURL = '?id=5607916' + apiID + apiUnits;
-const fishhavenURL = '?lat=42.0380399&lon=-111.4048681' + apiID + apiUnits;
-//preston weather
-const prestonWeather = weatherAPIurl + prestonURL;
-const prestonForecast = forecastAPIurl + prestonURL;
-//soda springs weather
-const sodaspringsWeather = weatherAPIurl + sodaspringsURL;
-const sodaspringsForecast = forecastAPIurl + sodaspringsURL;
-//fish haven weather
-const fishhavenWeather = weatherAPIurl + fishhavenURL;
-const fishhavenForecast = forecastAPIurl + fishhavenURL;
-
-
-//page selector
+const cozumelURL = '?id=3530103' + apiID + apiUnits;
+const cozumelWeather = weatherAPIurl + cozumelURL;
+const cozumelForecast = forecastAPIurl + cozumelURL;
 
 let weatherURL = "";
 let forecastURL = "";
 if (document.getElementById("home-body")) {
-    weatherURL = prestonWeather;
-    forecastURL = prestonForecast;
-}else if (document.getElementById("soda-body")) {
-    weatherURL = sodaspringsWeather;
-    forecastURL = sodaspringsForecast;
-} else if (document.getElementById("fish-body")) {
-    weatherURL = fishhavenWeather;
-    forecastURL = fishhavenForecast;
+    weatherURL = cozumelWeather;
+    forecastURL = cozumelForecast;
 }
-
-
 
 //weather summary
 fetch(weatherURL)
@@ -87,5 +67,8 @@ fetch(forecastURL)
                 weatherIcon[day].setAttribute("alt", `Icon representing ${forecast[day].weather[0].description}`);
             }
         }
+
+       
+
 
     });
