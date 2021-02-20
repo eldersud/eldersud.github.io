@@ -514,7 +514,7 @@ input[type=range]::-webkit-slider-thumb {
   width: 15px;
   border-radius: 4px;
   margin-top: -8px;
-  background:#FCA311;
+  background:#FF4A1C;
 }
 
 form label.lab input, form label.lab select {
