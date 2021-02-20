@@ -2,8 +2,7 @@
 {
     "rentals": [
       {
-        "model": "Honda Metro",
-        "type": "Scooter ",
+        "model": "Honda Metro Scooter",
         "persons": "Max Persons: 1",
         "rhalf": "Half-day Reservation (3 hrs):$20",
         "rfull": " Full-day Reservation: $30",
@@ -12,8 +11,7 @@
         "img": "images/honda-metro.jpg"
       },
       {
-        "model": "Honda Dio",
-        "type": "Scooter ",
+        "model": "Honda Dio Scooter",
         "persons": "Max Persons: 2",
         "rhalf": "Half-day Reservation (3 hrs): $30",
         "rfull": "Full-day Reservation: $40",
@@ -22,8 +20,7 @@
         "img": "images/honda-dio.jpg"
       },
       {
-        "model": "Honda PCX",
-        "type": "Scooter ",
+        "model": "Honda PCX Scooter",
         "persons": "Max Persons: 2",
         "rhalf": "Half-day Reservation (3 hrs): $40",
         "rfull": "Full-day Reservation: $50",
@@ -32,8 +29,7 @@
         "img": "images/honda-pcx.jpg"
       },
       {
-        "model": "Honda Pioneer",
-        "type": "ATV ",
+        "model": "Honda Pioneer ATV",
         "persons": "Max Persons: 4",
         "rhalf": "Half-day Reservation (3 hrs): $50",
         "rfull": "Full-day Reservation: $70",
@@ -43,8 +39,7 @@
       },
       
       {
-        "model":"Jeep Wrangler " ,
-        "type": "4 Door with A/C",
+        "model":"Jeep Wrangler 4 Door with A/C " ,
         "persons": "Max Persons: 5",
         "rhalf": "Half-day Reservation (3 hrs): $70",
         "rfull": "Full-day Reservation: $100",
@@ -53,8 +48,7 @@
         "img": "images/wrangler-4doors.jpg"
       },
       {
-        "model": "Jeep Wrangler ",
-        "type":"2 Door" ,
+        "model": "Jeep Wrangler 2 Door ",
         "persons": "Max Persons: 4",
         "rhalf": "Half-day Reservation (3 hrs): $60",
         "rfull": "Full-day Reservation: $85",

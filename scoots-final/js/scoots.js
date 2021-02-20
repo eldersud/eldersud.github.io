@@ -10,7 +10,7 @@ fetch(requestURL)
          console.log(rentals[i].reservedhalf);   
     let rentaldetail = document.createElement("section");
     let tittle= document.createElement("h2");
-    tittle.textContent=rentals[i].model + ' ' + rentals[i].type;
+    tittle.textContent=rentals[i].model ;
     rentaldetail.appendChild(tittle);
     let passengers=document.createElement("p");
     passengers.textContent= rentals[i].persons;
@@ -29,7 +29,7 @@ fetch(requestURL)
     rentaldetail.appendChild(walkf);
     let img=document.createElement("img");
     img.setAttribute("src", rentals[i].img);
-    img.setAttribute("alt", rentals[i].model + "" + rentals[i].type );
+    img.setAttribute("alt", rentals[i].model);
     rentaldetail.appendChild(img);
     document.querySelector("table.rentaloptions").appendChild(rentaldetail);
 
