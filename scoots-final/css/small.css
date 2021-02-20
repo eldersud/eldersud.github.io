@@ -277,6 +277,13 @@ h2{
   background-color:#E5E5E5;;
      
  }
+ .main-card p{
+   margin-bottom: 20px;
+  color:#FF9F1C;
+  font-family: "Open Sans", sans-serif;
+  
+  
+ }
  div h2{
    color: #14213D;;
    text-align: center;
