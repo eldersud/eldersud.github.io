@@ -579,7 +579,7 @@ form div {
 
 form input.button {
   border: none;
-  background-color: #FCA311;
+  background-color: #0EABF3;
   color: white;
   border-radius: 7px;
   padding: 0.5rem;
@@ -595,7 +595,7 @@ form input.button {
 }
 
 input[type="submit"]:hover {
-  background-color:#0EABF3;
+  background-color:#FF4A1C;
   color: white;
 }
 
