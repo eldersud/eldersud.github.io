@@ -1,0 +1,75 @@
+
+@media only screen and (min-width: 37.5em) {
+   
+  
+  .banner .weather-summary{
+    width: 100%;
+   
+  }
+  
+  
+  /*------------HEADER-----------*/
+  header img{
+    width:450px;
+   
+  } 
+
+    h1,h2 {
+        font-size: 2.5rem;
+    }
+
+    .motto {
+        font-size: 1rem;
+    }
+   
+              /*------------CONTACT INFO-----------*/
+              footer{
+            
+        align-items: center;
+         text-align: center;
+              }
+      .names{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-self: center;
+        }  
+        .contact{
+          align-items: center;
+        }
+
+        
+        
+      /*-Articles-*/
+.article{
+  margin-top:30px;
+}
+.article-tours img{
+  max-width: 250px; 
+}
+
+/*images*/
+
+.gelly {
+
+  width:100px;
+  transition:0.5s;
+  
+}
+
+.gelly:hover{
+  transform:scale(1.2);
+}
+
+.cont a img{
+  max-width: 200px;
+}
+.wireframe2{
+  max-width: 300px;
+}
+.wire-cont{
+  display: grid;
+  grid: auto-flow / 1fr 1fr;
+
+}
+   
+}

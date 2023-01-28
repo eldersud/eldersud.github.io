@@ -1,0 +1,97 @@
+@media only screen and (min-width: 72em) {
+  
+ 
+
+/*------------HEADER-----------*/
+
+  
+  header img {
+      width: 800px;
+      height: auto;
+    }
+  
+    h1 {
+      font-size: 3rem;
+      }
+      h2{
+        font-size: 3rem;
+        
+      }
+     
+      
+    .motto {
+      font-size: 1.3rem;
+    }
+  
+  
+/*------------MAIN-----------*/
+
+main{
+  max-width: 100%;
+    margin: 0 auto;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: url(./Img/back1.jpeg);     
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+/*images*/
+
+.gelly {
+
+  width:100px;
+  transition:0.5s;
+  
+  
+}
+
+.gelly:hover{
+  transform:scale(1.2);
+}
+.cont a img{
+  margin-top:30px;
+}
+.cont a img:hover{
+  transform:scale(1.1);
+  box-shadow: 5px 5px 5px rgb(168,218,220,0.4);
+  
+}
+  
+
+
+    /*------------ARTICLE-----------*/
+    .article{
+      width: 100%;
+      max-width: 1200px;
+      margin: 10px auto;
+      background-color: rgb(168,218,220,0.4);
+     
+      padding:5%;
+    }
+    .article .cont img {
+      max-width:400px;
+      width: 100%;
+      
+      
+    }
+    .article p {
+      font-size: 1.25em;
+    }
+
+  /*------------CONTACT-----------*/
+  
+    main.contact h2{
+    text-align: center;
+    padding-left:50%;
+  }
+
+  .contact h2{
+    font-size: 2em;
+  }
+
+
+ 
+  }
